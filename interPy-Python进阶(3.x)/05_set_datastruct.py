@@ -144,4 +144,35 @@ set ^ other
 
 copy()
 # Return a new set with a shallow copy of s.
+
+update(*others)
+set |= other | ...
+# Update the set, adding elements from all others.
+
+intersection_update(*others)
+set &= other & ...
+# Update the set, keeping only elements found in it and all others.
+
+difference_update(*others)
+set -= other | ...
+# Update the set, removing elements found in others.
+
+symmetric_difference_update(other)
+set ^= other
+# Update the set, keeping only elements found in either set, but not in both.
+
+add(elem)
+# Add element elem to the set.
+
+remove(elem)
+# Remove element elem from the set. Raises KeyError if elem is not contained in the set.
+
+discard(elem)
+Remove element elem from the set if it is present.
+
+pop()
+# Remove and return an arbitrary element from the set. Raises KeyError if the set is empty.
+
+clear()
+# Remove all elements from the set.
 """
