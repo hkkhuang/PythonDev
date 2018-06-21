@@ -50,4 +50,4 @@ Python学习记录
 
 [20_open.py](https://github.com/hkkhuang/PythonDev/blob/master/interPy-Python%E8%BF%9B%E9%98%B6%5B3.x%5D/20_open.py)
 
-[21_Python2%2B3.py](https://github.com/hkkhuang/PythonDev/blob/master/interPy-Python%E8%BF%9B%E9%98%B6%5B3.x%5D/21_Python2%2B3.py)
+[21_Python2+3.py](https://github.com/hkkhuang/PythonDev/blob/master/interPy-Python%E8%BF%9B%E9%98%B6%5B3.x%5D/21_Python2%2B3.py)
